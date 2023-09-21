@@ -5,7 +5,7 @@
 }
 /* --------------------------HEADER------------------------- */
 body{
-    background-image: url("./resourses/fondoBody.jpg");
+    background-image: url("./resourses/fondoBody.webp");
     background-position: center;
     background-size: cover;
 }
@@ -55,47 +55,46 @@ body{
 /* SECTIONS */
 
 .sec1{
-    background-image: url("./resourses/StockSnap_IQZCVND4OQ.jpg");
+    background-image: url("./resourses/StockSnap_IQZCVND4OQ.webp");
     background-position: center;
     background-size: cover;
     height: 85vh;
-    width: 99%;
-    margin: 1vh auto;
+    width: 98%;
+    margin: 3vh auto;
     display: flex;
     background-attachment: fixed;
 }
 
 .sec2{
-    background-image: url("./resourses/StockSnap_PQPRTL9NK6.jpg");
+    background-image: url("./resourses/StockSnap_PQPRTL9NK6.webp");
     background-position: center;
     background-size: cover;
     height: 85vh;
-    width: 99%;
-    margin: 1vh auto;
+    width: 98%;
+    margin: 3vh auto;
     display: flex;
 
     background-attachment: fixed;
 
 }
 .sec3{
-    background-image: url("./resourses/StockSnap_QPDN2DZ4GJ.jpg");
+    background-image: url("./resourses/StockSnap_QPDN2DZ4GJ.webp");
     background-position: center;
     background-size: cover;
     height: 85vh;
-    width: 99%;
-    margin: 1vh auto;
+    width: 98%;
+    margin: 3vh auto;
     display: flex;
-
     background-attachment: fixed;
 
 }
 .sec4{
-    background-image: url("./resourses/StockSnap_VZBJUVPO25.jpg");
+    background-image: url("./resourses/StockSnap_VZBJUVPO25.webp");
     background-position: center;
     background-size: cover;
     height: 85vh;
-    width: 99%;
-    margin: 1vh auto;
+    width: 98%;
+    margin: 3vh auto;
     display: flex;
     background-attachment: fixed;
 }
