@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------------------HEADER------------------------- */
+body{
+    background-image: url("./resourses/fondoBody.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: black;
+    padding: 3vh 3vw;
+    color: white;
+}
+
+.navbar-icon{
+    max-width: 4vw;
+}
+
+.ul-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.navbar-link , .navbar-link a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* TITLE */
+
+.title-section{
+    background-color: rgba(0, 0, 139, 0.288);
+    padding:20vh 3vw 40vh 3vw;
+    
+}
+
+.title-section h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+/*---------------------------- MAIN---------------------------*/
+/* SECTIONS */
+
+.sec1{
+    background-image: url("./resourses/StockSnap_IQZCVND4OQ.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 99%;
+    margin: 1vh auto;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.sec2{
+    background-image: url("./resourses/StockSnap_PQPRTL9NK6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 99%;
+    margin: 1vh auto;
+    display: flex;
+
+    background-attachment: fixed;
+
+}
+.sec3{
+    background-image: url("./resourses/StockSnap_QPDN2DZ4GJ.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 99%;
+    margin: 1vh auto;
+    display: flex;
+
+    background-attachment: fixed;
+
+}
+.sec4{
+    background-image: url("./resourses/StockSnap_VZBJUVPO25.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 99%;
+    margin: 1vh auto;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.section-article{
+    padding: 3vh 2vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px black;
+    max-width: 60%;
+    margin: auto;
+}
+
+.section-title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section-paragraph{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*-------------------------------FOOTER --------------------------------*/
+footer{
+    padding: 3vh 3vw 3vh 3vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3{
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
