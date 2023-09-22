@@ -1,16 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 16px;
+    /* Tamaño de fuente base para pantallas grandes */
+}
+
 /* --------------------------HEADER------------------------- */
-body{
+body {
     background-image: url("./resourses/fondoBody.webp");
     background-position: center;
     background-size: cover;
 }
+
 /* NAVBAR */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,17 +27,18 @@ body{
     color: white;
 }
 
-.navbar-icon{
+.navbar-icon {
     max-width: 4vw;
 }
 
-.ul-links{
+.ul-links {
     display: flex;
     justify-content: space-between;
     width: 50vw;
 }
 
-.navbar-link , .navbar-link a{
+.navbar-link,
+.navbar-link a {
     list-style: none;
     text-decoration: none;
     color: white;
@@ -39,13 +47,13 @@ body{
 
 /* TITLE */
 
-.title-section{
+.title-section {
     background-color: rgba(0, 0, 139, 0.288);
-    padding:20vh 3vw 40vh 3vw;
-    
+    padding: 20vh 3vw 40vh 3vw;
+
 }
 
-.title-section h1{
+.title-section h1 {
     font-size: 5rem;
     text-align: center;
     color: white;
@@ -54,7 +62,7 @@ body{
 /*---------------------------- MAIN---------------------------*/
 /* SECTIONS */
 
-.sec1{
+.sec1 {
     background-image: url("./resourses/StockSnap_IQZCVND4OQ.webp");
     background-position: center;
     background-size: cover;
@@ -65,7 +73,7 @@ body{
     background-attachment: fixed;
 }
 
-.sec2{
+.sec2 {
     background-image: url("./resourses/StockSnap_PQPRTL9NK6.webp");
     background-position: center;
     background-size: cover;
@@ -77,7 +85,8 @@ body{
     background-attachment: fixed;
 
 }
-.sec3{
+
+.sec3 {
     background-image: url("./resourses/StockSnap_QPDN2DZ4GJ.webp");
     background-position: center;
     background-size: cover;
@@ -89,7 +98,7 @@ body{
 
 }
 
-.section-article{
+.section-article {
     padding: 3vh 2vw;
     background-color: rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0px 30px black;
@@ -97,32 +106,104 @@ body{
     margin: auto;
 }
 
-.section-title{
+.section-title {
     color: white;
     font-size: 2rem;
     text-align: center;
 }
 
-.section-paragraph{
+.section-paragraph {
     color: white;
     font-size: 1.5rem;
 }
 
 /*-------------------------------FOOTER --------------------------------*/
-footer{
+footer {
     padding: 3vh 3vw 3vh 3vw;
     background-color: black;
     display: flex;
     justify-content: space-around;
 }
 
-footer h3{
+footer h3 {
     color: white;
     font-size: 1.2rem;
+    width: 45%;
 }
 
-footer a{
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+footer a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+/* -------------------RESPONSIVE-------------------- */
+@media(max-width: 426px) {
+
+/* NAVBAR */
+.navbar {
+    padding: 3vh 2vw;
+}
+
+.navbar-icon {
+    max-width: 10vw;
+}
+
+.ul-links {
+    width: 75vw;
+}
+
+.navbar-link,
+.navbar-link a {
+    font-size: 1.2rem;
+}
+
+/* Title */
+
+.title-section {
+    background-color: rgba(0, 0, 139, 0.288);
+    padding: 10vh 5vw 20vh 5vw;
+
+}
+
+.title-section h1 {
+    font-size: 3rem;
+}
+
+
+
+/* Section */
+    .section-article {
+        background-color: rgba(0, 0, 0, 0.5);
+        max-width: 90%;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-paragraph {
+        font-size: 1rem;
+    }
+
+
+
+    /* Footer */
+    footer h3 {
+        color: white;
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        width: 20%;
+    }
+
 }
