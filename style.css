@@ -88,16 +88,6 @@ body{
     background-attachment: fixed;
 
 }
-.sec4{
-    background-image: url("./resourses/StockSnap_VZBJUVPO25.webp");
-    background-position: center;
-    background-size: cover;
-    height: 85vh;
-    width: 98%;
-    margin: 3vh auto;
-    display: flex;
-    background-attachment: fixed;
-}
 
 .section-article{
     padding: 3vh 2vw;
